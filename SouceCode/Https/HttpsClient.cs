@@ -89,7 +89,7 @@ namespace HttpsUtility.Https
 
 
 
-        public HttpsResult GetWeather(string url)
+        public HttpsResult Get(string url)
         {
             
             return Get(url, null);
